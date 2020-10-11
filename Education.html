@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Hello!</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <script src="script.js" defer></script>
+  </head>
+
+  <body>
+    <section class="header header-static header-frontpage">
+      <div class="container">
+        <header style="pointer-events: all;">
+          <a href="index.html">
+            <img
+              src="https://cdn.glitch.com/530d88a7-2eb5-4109-a304-f6ddcb95be64%2Fe5b6b3_656834a3f9e04614b735ba0269269e5a_mv2.webp?v=1602356005992"
+              class="Logo"
+              width="100"
+            />
+          </a>
+
+          <div class="menu">
+            <ul id="menu-hauptmenue-1" class="menu">
+              <li
+                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-8 current_page_item menu-item-7051"
+              ></li>
+              <li
+                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22"
+              >
+                <a href="page2.html">About</a>
+              </li>
+              <li
+                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-26"
+              >
+                <a href="page3.html">Technical Skills</a>
+              </li>
+              <li
+                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25"
+              >
+                <a href="page4.html">Projects</a>
+              </li>
+              <li
+                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23"
+              >
+                <a href="Education.html">Education</a>
+              </li>
+              <li
+                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24"
+              >
+                <a href="achievements.html">Achievements</a>
+              </li>
+            </ul>
+          </div>
+        </header>
+
+        <div class="row1">
+          <div
+            class="column1"
+            onclick="openTab('b1');"
+            style="background:LightGray;"
+          >
+            Masters
+          </div>
+          <div
+            class="column1"
+            onclick="openTab('b2');"
+            style="background:#3d3d29;"
+          >
+            Bachelors
+          </div>
+          <div
+            class="column1"
+            onclick="openTab('b3');"
+            style="background:#33334d;"
+          >
+            Sr. Secondary
+          </div>
+          <div
+            class="column1"
+            onclick="openTab('b4');"
+            style="background:grey;"
+          >
+            Secondary
+          </div>
+        </div>
+
+        <div
+          id="b1"
+          class="containerTab1"
+          style="display:none;background:LightGray"
+        >
+          <span
+            onclick="this.parentElement.style.display='none'"
+            class="closebtn1"
+            >x</span
+          >
+          <h2 style colour="black">
+            M.Tech. in ComputerScience International Instituteof Information
+            Technology,Hyderabad
+          </h2>
+          <p color="black">August 2020–Ongoing</p>
+        </div>
+
+        <div
+          id="b2"
+          class="containerTab1"
+          style="display:none;background:#3d3d29"
+        >
+          <span
+            onclick="this.parentElement.style.display='none'"
+            class="closebtn1"
+            >x</span
+          >
+          <h2>
+            B.E. in Information Technology Engineering ,Jabalpur Engineering
+            College
+          </h2>
+          <p>Aug 2016–Aug 2020</p>
+          <p>
+            C.G.P.A. = 7.56
+          </p>
+        </div>
+
+        <div
+          id="b3"
+          class="containerTab1"
+          style="display:none;background:#33334d"
+        >
+          <span
+            onclick="this.parentElement.style.display='none'"
+            class="closebtn1"
+            >x</span
+          >
+          <h2>Senior Secondary from Vindhyachal Academy(C.B.S.E.)</h2>
+          <p>May 2013-May 2015</p>
+          <p>
+            Percentile-90.60%
+          </p>
+        </div>
+
+        <div id="b4" class="containerTab1" style="display:none;background:grey">
+          <!-- If you want the ability to close the container, add a close button -->
+          <span
+            onclick="this.parentElement.style.display='none'"
+            class="closebtn1"
+            >x</span
+          >
+          <h2>Secondary from Vindhyachal Academy(C.B.S.E.)</h2>
+          <p>May 2000-May 2013</p>
+          <p>
+            C.G.P.A = 9.8
+          </p>
+        </div>
+      </div>
+
+      <div class="background-video">
+        <video width="100%" playsinline autoplay muted loop>
+          <source
+            src="https://cdn.glitch.com/530d88a7-2eb5-4109-a304-f6ddcb95be64%2FBlack%20-%2014793.mp4?v=1602401446561"
+            type="video/mp4"
+          />
+        </video>
+      </div>
+    </section>
+  </body>
+</html>

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Hello!</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <style></style>
+
+    <script src="script.js" defer></script>
+  </head>
+
+  <body>
+    <section class="header header-static header-frontpage">
+      <div class="container">
+        <header style="pointer-events: all;">
+          <a href="index.html">
+            <img
+              src="https://cdn.glitch.com/530d88a7-2eb5-4109-a304-f6ddcb95be64%2Fe5b6b3_656834a3f9e04614b735ba0269269e5a_mv2.webp?v=1602356005992"
+              class="Logo"
+              width="100"
+            />
+          </a>
+
+          <div class="menu">
+            <ul id="menu-hauptmenue-1" class="menu">
+              <li
+                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-8 current_page_item menu-item-7051"
+              ></li>
+              <li
+                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22"
+              >
+                <a href="page2.html">About</a>
+              </li>
+              <li
+                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-26"
+              >
+                <a href="page3.html">Technical Skills</a>
+              </li>
+              <li
+                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25"
+              >
+                <a href="page4.html">Projects</a>
+              </li>
+              <li
+                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23"
+              >
+                <a href="Education.html">Education</a>
+              </li>
+              <li
+                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24"
+              >
+                <a href="achievements.html">Achievements</a>
+              </li>
+            </ul>
+          </div>
+        </header>
+
+        <p>
+          Click on a Project to view
+        </p>
+
+        <div class="tab-gallery">
+          <div class="row">
+            <div class="column">
+              <img
+                src="https://cdn.glitch.com/530d88a7-2eb5-4109-a304-f6ddcb95be64%2Fproject1.jpg?v=1602404393014"
+                alt="Project 1"
+                style="width:20%"
+                onclick="myFunction(this);"
+              />
+            </div>
+            <div class="column">
+              <img
+                src="https://cdn.glitch.com/530d88a7-2eb5-4109-a304-f6ddcb95be64%2Fproject2.jpg?v=1602404393617"
+                alt="project 2"
+                style="width:20%"
+                onclick="myFunction(this);"
+              />
+            </div>
+            <div class="column">
+              <img
+                src="https://cdn.glitch.com/530d88a7-2eb5-4109-a304-f6ddcb95be64%2Fproject%203.jpg?v=1602404403029"
+                alt="project 3"
+                style="width:20%"
+                onclick="myFunction(this);"
+              />
+            </div>
+            <div class="column">
+              <img
+                src="https://cdn.glitch.com/530d88a7-2eb5-4109-a304-f6ddcb95be64%2Fproject4.jpg?v=1602404404782"
+                alt="project 4"
+                style="width:20%"
+                onclick="myFunction(this);"
+              />
+            </div>
+          </div>
+
+          <div class="container">
+            <span
+              onclick="this.parentElement.style.display='none'"
+              class="closebtn"
+              >&times;</span
+            >
+            <img id="expandedImg" style="width:30%" />
+            <div id="imgtext"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="background-video">
+        <video width="100%" playsinline autoplay muted loop>
+          <source
+            src="https://cdn.glitch.com/530d88a7-2eb5-4109-a304-f6ddcb95be64%2FBlack%20-%2014793.mp4?v=1602401446561"
+            type="video/mp4"
+          />
+        </video>
+      </div>
+    </section>
+  </body>
+</html>
